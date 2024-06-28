@@ -6,7 +6,21 @@
 }
 
 
+
 .carousel-item {
+  position: relative;
+  display: none;
+  float: left;
+  width: 90%;
+  margin-right: -100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transition: transform .6s ease-in-out;
+  margin-top: 10%;
+  height: auto;
+}
+
+.zzzcarousel-item {
   position: relative;
   display: none;
   float: left;

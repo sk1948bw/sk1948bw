@@ -16,8 +16,9 @@
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   transition: transform .6s ease-in-out;
-  margin-top: 10%;
+  margin-top: 3rem;
   height: auto;
+  min-height: 30rem;
 }
 
 .zzzcarousel-item {
